@@ -1,0 +1,39 @@
+
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+block content 
+   
+        
+
+
+    section#introSection 
+        div  Welcome to Shraddha's Dance Academy 
+        div.small  Eat Sleep Dance Repeat 
+
+    section#sponsorsSection 
+        h2  Our Sponsors 
+        div#sponsorsimg 
+            img(src="/static/apple.jpg", alt="sponsor image", Class="spimg")
+            img(src="/static/insta.jpg", alt="sponsor image", Class="spimg")
+            img(src="/static/micro.jpg", alt="sponsor image", Class="spimg")
+            img(src="/static/goole.jpg", alt="sponsor image", Class="spimg")
+
+    section#missionSection 
+        h2  Our Mission 
+        div.card
+            h3  Dance Perfection
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus expedita voluptas esse quis nesciunt rerum voluptatibus deleniti rem, explicabo, dolorem deserunt, officiis inventore quos aliquid fuga corrupti! Officia, distinctio nihil!   
+        div.card
+            h3  Dance the way you like
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus expedita voluptas esse quis nesciunt rerum voluptatibus deleniti rem, explicabo, dolorem deserunt, officiis inventore quos aliquid fuga corrupti! Officia, distinctio nihil!  
+        div.card
+            h3  Expert Teaching
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus expedita voluptas esse quis nesciunt rerum voluptatibus deleniti rem, explicabo, dolorem deserunt, officiis inventore quos aliquid fuga corrupti! Officia, distinctio nihil!
+
+    
